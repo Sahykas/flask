@@ -1,0 +1,21 @@
+# примеры API-запросов
+
+@baseUrl = http://127.0.0.1:5000/api/v1/
+
+# создание продукта
+POST {{baseUrl}}/users/
+Content-Type: application/json
+
+{
+  "email": "sa@uu.ee",
+  "name": "sahyk",
+  "password": "1234"
+}
+
+###
+
+# получение продуктов
+GET {{baseUrl}}/users/
+Content-Type: application/json
+
+###
